@@ -1,3 +1,4 @@
+import 'package:belajar_flutter/ui/produk_page.dart';
 //import 'package:belajar_flutter/ui/produk_detail.dart';
 import 'package:belajar_flutter/ui/produk_form.dart';
 import 'package:belajar_flutter/row_widget.dart';
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Aplikasi Flutter Pertama',
-      home: ProdukForm(),
+      home: ProdukPage(),
     );
   }
 }
